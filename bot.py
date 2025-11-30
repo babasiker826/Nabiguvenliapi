@@ -12,7 +12,7 @@ app = Flask(__name__)
 
 # Güvenlik Konfigürasyonları
 RATE_LIMIT_WINDOW = 60
-RATE_LIMIT_MAX_REQUESTS = 50
+RATE_LIMIT_MAX_REQUESTS = 8
 RATE_LIMIT_BLOCK_DURATION = 3600
 
 # IP bazlı rate limiting
